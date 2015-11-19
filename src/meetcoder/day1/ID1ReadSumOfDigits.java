@@ -1,4 +1,4 @@
-package meetcoder;
+package meetcoder.day1;
 
 public class ID1ReadSumOfDigits {
 
@@ -7,6 +7,14 @@ public class ID1ReadSumOfDigits {
 		System.out.println(readSum("123456789"));
 		
 		String[] s = new String []{"1"};
+		int[] ss = new int[1];
+		
+		int n = 8;
+		n = n<<1;
+		int n1 = 8;
+		n1 = n1>>1;
+		System.out.println(n1^n);
+		
 	}
 	
 	public static String readSum(String n) {
