@@ -14,8 +14,8 @@ public class ID15BitWiseAdd {
 		int y = b;
 		
 		while(x!=0) {	//x!=0
-			x = a&b;
-			y = a^b;
+			x = a&b; 	//找到需要进位的位
+			y = a^b;	
 			a = x<<1;
 			b = y;			
 		}
