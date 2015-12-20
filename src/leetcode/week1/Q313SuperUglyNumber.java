@@ -1,4 +1,4 @@
-package leetcode.day1;
+package leetcode.week1;
 
 public class Q313SuperUglyNumber {
 
