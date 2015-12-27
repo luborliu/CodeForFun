@@ -10,6 +10,9 @@ public class TestQueue {
 		q.peek();
 		q.add(1);
 		q.poll();
+		q.offer(2); //better than add
+		
+		
 	}
 
 }
