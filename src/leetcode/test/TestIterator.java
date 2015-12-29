@@ -7,6 +7,7 @@ public class TestIterator implements Iterator<Integer>{
 	
 	
 	public TestIterator(Iterator<Integer> it) {
+		
 		it.next();
 		it.hasNext();
 	}

@@ -22,6 +22,10 @@ public class TestHashMap {
 		HashMap h = new HashMap();
 		h.put("s", 1);
 		h.put("st", 3);
+		
+		
+		
+		
 		for(int i:ids) {
 			
 		}
