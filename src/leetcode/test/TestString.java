@@ -8,7 +8,7 @@ public class TestString {
 		
 		String x = "abcda";
 		
-		char[] res = x.split
+		char[] res = x.split("")
 		
 	}
 
