@@ -18,6 +18,10 @@ public class TestHashSet {
 		for(int i:nums) {
 			System.out.println(i);
 		}
+		
+		HashSet<Integer> set2 = new HashSet<Integer>();
+		set2.addAll(set);
+		set2.removeAll(set);
 	}
 
 }

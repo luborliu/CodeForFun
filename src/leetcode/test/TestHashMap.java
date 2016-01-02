@@ -28,8 +28,8 @@ public class TestHashMap {
 		h.size();
 		
 		
-		for(int i:ids) {
-			
+		for(int i:hm.keySet()) {
+			System.out.print(i);
 		}
 	}
 

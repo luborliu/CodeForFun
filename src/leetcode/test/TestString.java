@@ -8,7 +8,8 @@ public class TestString {
 		
 		String x = "abcda";
 		
-		char[] res = x.split("")
+		String[] res = x.split("b");
+		System.out.println(x.substring(x.length(),x.length()));
 		
 	}
 

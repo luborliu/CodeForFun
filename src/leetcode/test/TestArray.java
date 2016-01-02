@@ -22,6 +22,7 @@ public class TestArray {
 		for(int i:al) {
 			
 		}
+	
 	}
 
 }
