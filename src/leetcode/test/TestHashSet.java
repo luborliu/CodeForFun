@@ -13,10 +13,12 @@ public class TestHashSet {
 		set.add(101);
 		for(int i:set) {
 			System.out.println(i);
+			set.remove(i);
 		}
 		int[] nums = new int[]{7,1,2,4};
 		for(int i:nums) {
 			System.out.println(i);
+			
 		}
 		
 		HashSet<Integer> set2 = new HashSet<Integer>();

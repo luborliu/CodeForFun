@@ -21,8 +21,11 @@ public class TestArray {
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		for(int i:al) {
 			
+			
 		}
 	
+		
+		Arrays.sort(x);
 	}
 
 }
