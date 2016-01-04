@@ -9,6 +9,10 @@ public class TestStringBuilder {
 		sb.insert(0,2);
 		sb.insert(0,3);
 		System.out.println(sb.toString());
+		
+		sb.length();
+		
+		StringBuilder sb2 = new StringBuilder(sb);
 
 	}
 
