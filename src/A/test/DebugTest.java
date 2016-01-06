@@ -1,4 +1,4 @@
-package Amazon.oa1;
+package A.test;
 
 public class DebugTest {
 	
