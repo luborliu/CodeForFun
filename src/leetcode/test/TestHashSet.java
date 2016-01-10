@@ -6,6 +6,8 @@ public class TestHashSet {
 	
 	public static void main(String[] args) {
 		
+		//set.add() if the set already contains the element, won't add the element and return false
+		
 		HashSet<Integer> set = new HashSet<Integer>();
 		set.add(1);
 		set.add(10);
