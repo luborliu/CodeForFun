@@ -1,6 +1,7 @@
 package leetcode.test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TestArrayList {
@@ -10,6 +11,10 @@ public class TestArrayList {
 		
 		
 		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(12);
+		al.add(134);
+		al.add(3);
+		Collections.sort(al);
 		
 		ArrayList<List<Integer>> all = new ArrayList<List<Integer>>();
 		System.out.println(all.isEmpty());

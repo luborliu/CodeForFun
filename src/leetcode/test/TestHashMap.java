@@ -13,9 +13,15 @@ public class TestHashMap {
 		HashMap<Integer,Integer> hm = new HashMap<Integer,Integer>();
 		System.out.println(hm==null);
 		Set<Integer> ids = hm.keySet();
+		hm.values();
 		
 		hm.containsKey(1);
 		hm.put(1, 1);
+		
+		hm.put(3, 3);
+		hm.put(2, 1);
+		System.out.println(hm.keySet());
+		System.out.println(hm.values());
 		//put(k,v) method returns 
 		//the previous value associated with key, or null if there was no mapping for key. (A null return can also indicate that the map previously associated null with key.)
 		
