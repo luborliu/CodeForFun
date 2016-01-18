@@ -29,6 +29,7 @@ public class TestHashMap {
 		h.put("s", 1);
 		h.put("st", 3);
 		
+		
 		h.remove("s");
 		
 		h.size();
