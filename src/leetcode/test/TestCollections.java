@@ -24,9 +24,10 @@ public class TestCollections {
 		
 		Collections.sort(x, new Comparator<Point>() {
 			public int compare(Point p1, Point p2) {
-				int time1 = p1.time;
-				int time2 = p2.time;
-				return time1-time2;
+				//int time1 = p1.time;
+				//int time2 = p2.time;
+				//return time1-time2;
+				return p1.time-p2.time;
 			}
 		});
 	}
