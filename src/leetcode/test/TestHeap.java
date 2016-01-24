@@ -38,7 +38,11 @@ public class TestHeap {
 		small.offer(5L);
 		small.offer(10L);
 		small.offer(3L);
-		small.poll();
+		small.offer(3L);
+		//small.poll();
+		
+		
+		System.out.println(small.remove(3L));
 		
 		System.out.println(small.peek());
 		
