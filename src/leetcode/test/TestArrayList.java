@@ -22,6 +22,9 @@ public class TestArrayList {
 		for(int i: al) {
 			System.out.println(i);
 		}
+		
+		
+		
 	}
 
 }
