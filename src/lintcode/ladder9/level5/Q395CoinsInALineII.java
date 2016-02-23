@@ -27,8 +27,8 @@ public class Q395CoinsInALineII {
         int len = values.length;
         dp[0] = 0;
         dp[1] = values[len-1];
-        dp[2] = values[len-1]+dp[len-2];
-        dp[3] = values[len-2]+dp[len-3];
+        dp[2] = values[len-1]+values[len-2];
+        dp[3] = values[len-2]+values[len-3];
         int sum = values[len-1]+values[len-2]+values[len-3];
        
         
